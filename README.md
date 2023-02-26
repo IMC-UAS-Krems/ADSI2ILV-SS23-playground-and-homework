@@ -14,3 +14,13 @@ The *what* is manyfold: you can contribute by spotting ISSUES, proposing new FEA
 
 The *how* is to FORK this project and create your own copy of it that you can modify and use to create PULL REQUESTS (PR). Using PR, we enable proper code reviewing and traceability.
 
+# Repository Content
+
+This public repository has the following structure:
+
+```
+.
+|- tests
+|   |- __init__.py
+|- homework
+```
