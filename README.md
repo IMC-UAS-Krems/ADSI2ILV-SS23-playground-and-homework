@@ -14,6 +14,13 @@ The *what* is manyfold: you can contribute by spotting ISSUES, proposing new FEA
 
 The *how* is to FORK this project and create your own copy of it that you can modify and use to create PULL REQUESTS (PR). Using PR, we enable proper code reviewing and traceability.
 
+# Fibonacci example
+
+One way to measure execution time using pytest is documented [here](https://howchoo.com/python/how-to-measure-unit-test-execution-times-in-pytest) and consists in adding the option 
+`--durations=0` to pytest.
+
+Another way, is to use a decorator that "wraps" the function and computes the elapsed time.
+
 # Repository Content
 
 This public repository has the following structure:
@@ -22,5 +29,7 @@ This public repository has the following structure:
 .
 |- tests
 |   |- __init__.py
-|- homework
+|   |- test_triangle.py
+|   |- test_fibonacci.py
+|- fibonacci.py
 ```
