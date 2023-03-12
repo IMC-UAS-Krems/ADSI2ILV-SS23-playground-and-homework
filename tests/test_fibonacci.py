@@ -1,4 +1,4 @@
-from fibonacci import F as fibo
+from public.fibonacci import F as fibo
 from time import perf_counter
 
 # Timer decorator
