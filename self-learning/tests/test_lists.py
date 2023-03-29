@@ -1,5 +1,5 @@
-from self_learning.dynamic_array_datastructures import DynamicArrayList
-from self_learning.linked_datastructures import LinkedList, DoubleLinkedList, CircularLinkedList
+from dynamic_array_datastructures import DynamicArrayList
+from linked_datastructures import LinkedList, DoubleLinkedList, CircularLinkedList
 
 
 def test_init_linked_list():
