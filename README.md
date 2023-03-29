@@ -16,6 +16,7 @@ The *how* is to FORK this project and create your own copy of it that you can mo
 
 # LE 29/03/2023: Lists, Arrays, and Lists Again!
 
+Check the instructions in the README.md file inside the `self-learning` folder and good luck!
 
 
 
