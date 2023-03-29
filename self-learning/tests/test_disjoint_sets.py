@@ -1,4 +1,4 @@
-from disjoin_set import DisjointSets
+from self_learning.disjoin_sets import DisjointSets
 
 def test_init():
     ds = DisjointSets()
