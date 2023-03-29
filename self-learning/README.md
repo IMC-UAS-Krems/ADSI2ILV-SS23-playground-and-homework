@@ -16,4 +16,8 @@
 
 Install pytest-cov in your venv
 
-From self-learning folder 
+From self-learning folder run the command:
+
+```pytest --cov . --cov-fail-under=90 --cov-config=./.coveragerc --cov-report=term --cov-report=html``
+
+Which means run coverage using the `.coveragerc` file (given to you) as configuration, report the results on the console and as nicely formatted html. Fail with a message if the coverage is below 90%
